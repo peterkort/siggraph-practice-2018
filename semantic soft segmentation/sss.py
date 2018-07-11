@@ -17,3 +17,12 @@ def get_test_image(i = 0):
     arr = np.asarray(img, dtype=np.uint8)
     return arr
 
+import caffe
+caffe.set_device(0)
+caffe.set_mode_gpu()
+prototxt_filename = 'deep lab v2 resnet/test.prototxt'
+caffemodel_filename = 'deep lab v2 resnet/train_iter_20000.caffemodel'
+
+def do_the_caffe_thing(img):
+    net = caffe.Net("deep lab v2 resnet/test.prototxt", "deep lab v2 resnet/train_iter_20000.caffemodel", caffe.TEST)
+

@@ -41,5 +41,8 @@ TensorFlow reimplementation:
 - lists Tensorflow 1.3.0+ as needed (anaconda windows only has 1.1.0)
 - TensorFlow on windows seems to be too much trouble.  I guess it's time to resurrect my dual-boot to Linux.
 
+Hello from the linux side. Let me tell you a little story about nvidia-driver... no, it's actually beside the point.
+
+Caffe is a simple apt-get install. But. I can't seem to make the deeplabv2 model work. The internets suggest that caffe models often require a specific version of caffe (sometimes uniquely modified by the model makers). I can't find any suggestion which version the models were made with.
 
 
