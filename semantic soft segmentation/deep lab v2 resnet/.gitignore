@@ -1,8 +1,0 @@
-# This directory is where I'm putting my downloaded model of DeepLabv2 resnet
-# You too can download it from http://liangchiehchen.com/projects/DeepLabv2_resnet.html
-
-# Ignore everything in this directory
-*
-# Except this file
-!.gitignore
-
