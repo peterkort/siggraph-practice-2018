@@ -46,3 +46,6 @@ Hello from the linux side. Let me tell you a little story about nvidia-driver...
 Caffe is a simple apt-get install. But. I can't seem to make the deeplabv2 model work. The internets suggest that caffe models often require a specific version of caffe (sometimes uniquely modified by the model makers). I can't find any suggestion which version the models were made with.
 
 Next stop, TensorFlow...
+
+ok, apparently TensorFlow isn't supported on Debian. I now have Ubuntu up and running happily(ish) and I can even import tensorflow successfully! I suspect none of the cuda libraries are actually set up.. there's talk on the internet about different path env variables.
+
