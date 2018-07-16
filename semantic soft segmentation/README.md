@@ -49,3 +49,8 @@ Next stop, TensorFlow...
 
 ok, apparently TensorFlow isn't supported on Debian. I now have Ubuntu up and running happily(ish) and I can even import tensorflow successfully! I suspect none of the cuda libraries are actually set up.. there's talk on the internet about different path env variables.
 
+TensorFlow can now run on my GPU!!!!  All it took was:
+- finding CUDA 9.0 from nvidia's website (ubuntu's cuda 9.1 package is too good for TF)
+- finding cudnn on nvidia's website (i'm sure i've done this part before but I couldn't find my account info of course)
+- compiling tensorflow master branch from source. (something something compute capability 3.0).
+
